@@ -1,6 +1,7 @@
 var assert = require('assert');
 var supertest = require('supertest'),
     supertest_session = require('supertest-session');
+var app = require('../../app');
 
 describe.skip('Integration Test 2', function() {
     
