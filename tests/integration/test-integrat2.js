@@ -21,7 +21,7 @@ describe.skip('Integration Test 2', function() {
         testagent
             .get('/test', {
                 input: 'input'
-            }))
+            })
             .expect(404)
             .end(done);
     });
