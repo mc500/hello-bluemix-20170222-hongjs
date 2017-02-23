@@ -8,7 +8,7 @@ describe.skip('Integration Test 2', function() {
 
     it('login', function (done) {
         testagent
-            .post('/login'))
+            .post('/login')
             .send({
                 userid: 'userid',
                 passwd: 'passwd'
